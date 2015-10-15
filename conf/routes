@@ -1,1 +1,4 @@
 GET     /                           controllers.Application.index
+
+# WebSocket
+GET /echo controllers.Chat.wsEcho
